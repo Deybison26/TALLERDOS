@@ -13,3 +13,21 @@ nav{
     position: relative;
     color: white;
 }
+footer {
+    display: flex;
+    text-align: center;
+    background-color: red;
+    height:90px;
+}
+
+.footer {
+    
+    margin-top: 61%;
+    color: white;
+}
+.autor{
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+    margin-left: 45%;
+}
