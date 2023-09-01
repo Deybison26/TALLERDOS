@@ -10,10 +10,22 @@
 }
 
 .img-gabriel{
-    height: 400px;
+    height: 350px;
+    
+}
+.card{
+    margin-top: 75px;
 }
 
 .siguiente{
     background: #ff0000;
     
+}
+.boton{
+    margin-top: 20px;
+
+}
+.footer{
+    margin-top: auto;
+    height: 40px;
 }
