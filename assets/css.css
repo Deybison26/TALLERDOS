@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: red;
+}
+.titulo {
+    float: left;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    color: white;
+}
+footer {
+    display: flex;
+    text-align: center;
+    background-color: red;
+    height:90px;
+}
+
+.footer {
+    
+    margin-top: 44px;
+    color: white;
+}
+.autor{
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+    margin-left: 45%;
+}
+.card{
+    margin-top: 100px;
+    width: auto;
+}
+.texto{
+    display: flex;
+    position: relative;
+}
+.texto2{
+    margin-top: 8%;
+}
+.imagen{
+    margin-top: 90px;
+}
+img{
+    width: 350px;
+    height: 250px;
+}
+.col{
+    margin-left: 2%;
+}
+.boton{
+    margin-top: 50px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    width: 20%;
+    height: 20%;
+}
