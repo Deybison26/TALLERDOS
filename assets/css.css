@@ -1,8 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html {
+    min-height: 100%;
+    position: relative;
 }
+body {
+    margin: 0;
+    margin-bottom: 100px;
+}
+footer {
+    background-color: #ff0000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.contenido{
+    margin: 0;
+    margin-bottom: 100px;
+}
+
 nav{
     background-color: red;
 }
@@ -13,18 +29,6 @@ nav{
     position: relative;
     color: white;
 }
-footer {
-    display: flex;
-    text-align: center;
-    background-color: red;
-    height:90px;
-}
-
-.footer {
-    
-    margin-top: 44px;
-    color: white;
-}
 .autor{
     display: flex;
     align-items: center;
@@ -32,7 +36,7 @@ footer {
     margin-left: 45%;
 }
 .card{
-    margin-top: 100px;
+    margin-top: 50px !important;
     width: auto;
 }
 .texto{
@@ -42,22 +46,13 @@ footer {
 .texto2{
     margin-top: 8%;
 }
-.imagen{
-    margin-top: 90px;
-}
-img{
-    width: 350px;
-    height: 250px;
-}
+
 .col{
     margin-left: 2%;
 }
 .boton{
-    margin-top: 50px;
+    background: #ff0000 !important;
 }
 .btn{
-    background-color: red;
     color: white;
-    width: 20%;
-    height: 20%;
 }
